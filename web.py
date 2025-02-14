@@ -8,9 +8,9 @@ st.set_page_config(page_title=' Prediction of Disease Outbreaks',
                    page_icon="🧑‍⚕️")
 
 # Load pre-trained models
-diabetes_model = pickle.load(open(r"C:\Users\devda\OneDrive\Desktop\disesase outbreak project\Sav_Model\db_dataset.sav", 'rb'))
-heart_disease_model = pickle.load(open(r"C:\Users\devda\OneDrive\Desktop\disesase outbreak project\Sav_Model\ht_dataset.sav", 'rb'))
-parkinsons_model = pickle.load(open(r"C:\Users\devda\OneDrive\Desktop\disesase outbreak project\Sav_Model\pk_dataset.sav", 'rb'))
+diabetes_model = pickle.load(open(r"C:\Users\garrry\Desktop\disesase outbreak project\Sav_Model\db_dataset.sav", 'rb'))
+heart_disease_model = pickle.load(open(r"C:\Users\garry\Desktop\disesase outbreak project\Sav_Model\ht_dataset.sav", 'rb'))
+parkinsons_model = pickle.load(open(r"C:\Users\garryDesktop\disesase outbreak project\Sav_Model\pk_dataset.sav", 'rb'))
 
 with st.sidebar:
     selected = option_menu('Prediction of disease outbreak system',
